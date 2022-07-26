@@ -1,0 +1,111 @@
+body {
+  font-family: "Bodoni Moda", serif;
+}
+
+header {
+  /*border: black solid 1px;*/
+  margin-top: 10px;
+  margin-bottom: 150px;
+}
+
+main {
+  padding-left: 150px;
+}
+
+h1 {
+  font-size: 6rem;
+  padding-left: 150px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+/* Colors Section*/
+
+.colors {
+  display: flex;
+}
+
+.single-color {
+  margin: 5px;
+}
+
+.single-color p {
+  font-size: 30px;
+  text-align: center;
+}
+
+#black {
+  background-color: blue;
+  color: white;
+  width: 200px;
+  height: 200px;
+  border: solid white 1px;
+}
+
+#white {
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  border: solid black 1px;
+}
+
+/* Fonts Section*/
+
+#font-name {
+  display: flex;
+}
+
+.font-name {
+  width: 200px;
+  height: 40px;
+  border: solid black 1px;
+  margin: 5px;
+  background-color: black;
+}
+
+.font-name p {
+  color: white;
+  margin-left: 4px;
+}
+
+.italic p {
+  font-style: italic;
+}
+
+#font-example {
+  display: flex;
+}
+
+.font-example {
+  width: 200px;
+  height: 200px;
+  border: solid black 1px;
+  margin: 5px;
+  overflow: hidden;
+}
+
+.font-example p {
+  width: 300px;
+  margin-top: 0px;
+  position: relative;
+  right: 5px;
+  bottom: 7px;
+}
+
+.text-styles h2 {
+  display: none;
+  color: red;
+}
+
+footer {
+  margin-bottom: 150px;
+}
